@@ -42,7 +42,6 @@ h1 {
 body {
 	position:relative;
 	clear: both;
-	overflow-y: scroll;
 	background-image: url("../images/intersection.png");
 }
 article {
@@ -180,4 +179,201 @@ a:hover {
 }
 .bio-text {
 	line-height: 24px;
+}
+@media screen and (max-width: 980px) and (min-width: 769px) {
+  section {
+  	width:640px;
+  }
+  article{
+  	width:250px;
+  }
+  aside {
+  	width:250px;
+  }
+  .hope {
+  	width:640px;
+  }
+  .portfolio-pic-container {
+	width:100%;
+	margin:0 auto;
+}
+.portfolio-pic
+{
+	margin:0 auto;
+	position:relative;
+	left:25px;
+}
+.portfolio-img-left {
+	float: none;
+	margin:10px auto;
+}
+.portfolio-img-right {
+	float: none;
+	margin:10px auto;
+}
+.title-bar {
+	height:20px;
+	width:180px;
+	padding: 10px;
+	position:relative;
+	background: #4aaaa5;
+	text-align:center;
+	font-size:18px;
+	bottom:70px;
+	left:0px;
+}
+}
+@media screen and (max-width: 768px) and (min-width: 641px) {
+   .portfolio-pic-container {
+	width:100%;
+	margin:0 auto;
+	margin-top: 10px;
+	position:relative;
+}
+.portfolio-pic
+{
+	margin:0 auto;
+	position:relative;
+}
+.portfolio-img-left {
+	margin:0;
+}
+.portfolio-img-right {
+	position:absolute;
+	right:0;
+	margin:0;
+	bottom:80px;
+}
+.title-bar {
+	clear:both;
+	height:20px;
+	width:180px;
+	padding: 10px;
+	position:relative;
+	background: #4aaaa5;
+	text-align:center;
+	font-size:18px;
+}
+.title-bar-1 {
+	bottom:60px;
+	left:0px;
+}
+.title-bar-2 {
+	bottom:100px;
+	left:340px;
+}
+.title-bar-3 {
+	bottom:60px;
+	left:0px;
+}
+.title-bar-4 {
+	bottom:100px;
+	left:340px;
+}
+.title-bar-5 {
+	bottom:60px;
+	left:0px;
+}
+  section {
+  	width:560px;
+  }
+  article{
+  	width:540px;
+  	float:none;
+  	padding-bottom:40px;
+  	margin-bottom:20px;
+  }
+  h2 {
+  	  	text-align:left;
+  }
+  .img {
+	width:7.5%;
+	padding:5px;
+	border:none;
+}
+  aside {
+  	clear: both;
+  	width:95%;
+  	float:none;
+  }
+  .hope {
+  	width:90%;
+  }
+}
+@media screen and (max-width: 640px) {
+  header {
+  	position:static;
+  	height:120px;
+  }
+  .hope {
+  	width:100%;
+  }
+  .name {
+  	width:100%;
+  	height:40%;
+  	float:none;
+  }
+  .links {
+  	text-align:center;
+  	width: 100%;
+  	height:20%;
+  	float:none;
+  }
+   section {
+  	width:360px;
+  }
+  article{
+  	width:340px;
+  	float:none;
+  	padding-bottom:40px;
+  	margin-bottom:20px;
+  }
+  h2 {
+  	  	text-align:left;
+  }
+  .img {
+	width:7.5%;
+	padding:5px;
+	border:none;
+}
+  aside {
+  	width:95%;
+  	float:none;
+  }
+  #profile {
+  	float:none;
+  	width:100%;
+  	height:100%;
+  }
+    .portfolio-pic-container {
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+	position:relative;
+}
+.portfolio-pic
+{
+	position:static;
+	text-align:center;
+}
+.portfolio-img-left {
+	text-align:center;
+	float: none;
+	position:static;
+}
+.portfolio-img-right {
+	position:static;
+	float: none;
+	text-align:center;
+}
+.title-bar {
+	height:20px;
+	padding: 10px;
+	position:relative;
+	background: #4aaaa5;
+	text-align:center;
+	font-size:18px;
+	top:-70px;
+	left: 70px;
+}
 }
